@@ -1,0 +1,219 @@
+.background {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(34, 34, 34, 0.896);
+  z-index: 40000;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  animation-name: fadeIn_Container;
+  animation-duration: 1s;
+}
+
+.modal {
+  display: none;
+  top: 0;
+  min-width: 250px;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 40001;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px -4px #121111;
+  margin-top: 30px;
+  margin-left: 10%;
+
+  animation-name: fadeIn_Modal;
+  animation-duration: 0.8s;
+}
+
+.header {
+  width: 100%;
+  height: 12%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 2px solid #ccc;
+}
+
+.header h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.header a {
+  text-decoration: none;
+  float: right;
+  line-height: 70px;
+  color: #aaa;
+}
+
+.content {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padre {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-izquierdo, .contenedor-derecho {
+  width: 50%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 245);
+  margin-left: 15px;
+  border-radius: 20px;
+  border: 4px solid rgb(238, 236, 236);
+  padding: 25px;
+  font-size: 20px;
+}
+
+.contenido {
+  display: block;
+  overflow: hidden;
+}
+
+.apartado label {
+  width: 100%;
+  font-size: 10px;
+  display: block;
+  font-weight: 550;
+}
+
+.apartado span {
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.contenedor-derecho {
+  margin-right: 15px;
+}
+
+.content {
+  width: 100%;
+  height: 78%;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer button {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/****MEDIA QUERIES****/
+
+@media screen and (min-width: 600px) {
+  .modal {
+    width: 50vw;
+    height: 80vh;
+    margin-left: calc(50vw - 25vw);
+    margin-top: calc(50vh - 40vh);
+  }
+
+  .apartado {
+    overflow: hidden;
+  }
+
+  .apartado label {
+    width: 100%;
+    display: block;
+    font-weight: 550;
+    font-size: 15px;
+  }
+
+  .apartado span {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .header {
+    width: 100%;
+    height: 12%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  .header a {
+    line-height: 62px;
+  }
+
+  .content {
+    width: 100%;
+    height: 78%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer button {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+/*LARGE SCREEN*/
+@media screen and (min-width: 1300px) {
+}
+
+/****ANIMATIONS****/
+
+@keyframes fadeIn_Modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn_Container {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}

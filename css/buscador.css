@@ -1,0 +1,40 @@
+.buscador-seccion {
+    max-width: 1600px;
+    padding-top: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-buscador {
+    width: 80%;
+    position: relative;
+}
+
+.buscador {
+    width: 100%;
+    outline: none;
+    border: 5px solid #c9c9c9;
+    border-radius: 35px;
+    box-shadow: -1px 15px 31px -4px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -1px 15px 31px -4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -1px 15px 31px -4px rgba(0, 0, 0, 0.6);
+    background-color: #ecece8;
+    padding: 20px 70px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.buscador::placeholder {
+    color: #161616;
+}
+
+.icono-buscador {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    font-size: 25px;
+    color: #161616;
+    cursor: pointer;
+}

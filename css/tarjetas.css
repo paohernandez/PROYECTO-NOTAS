@@ -1,0 +1,99 @@
+.tarjetas {
+  color: rgb(22, 22, 22);
+  max-width: 1600px;
+  padding-top: 60px;
+  margin: auto;
+  display: block;
+}
+
+.contenedor__tarjetas {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 450px;
+  margin: 30px 30px 40px 30px;
+  transition: all 300ms;
+}
+
+.card .container {
+  background-color: rgba(255, 255, 255, 0.361);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin-top: -10px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 275px;
+  position: relative;
+  box-shadow: -1px 7px 31px -4px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 7px 31px -4px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -1px 7px 31px -4px rgba(0, 0, 0, 0.6);
+}
+
+.card .container h1 {
+  font-size: 28px;
+  margin-top: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.card .container p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card .container .textos {
+  position: absolute;
+  width: 90%;
+  bottom: 20px;
+}
+
+.card .container a {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 13px 18px;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  display: block;
+  bottom: 0;
+  background: linear-gradient(to right, #c76361, #c32927);
+  color: rgb(243, 240, 240);
+  text-transform: uppercase;
+  font-weight: 800;
+  box-shadow: 1px 1px 30px -9px #bd2825;
+  transition: all 300ms;
+}
+
+.card .container a:hover {
+  box-shadow: 1px 1px 40px -6px #c72321;
+}
+
+.textos .apartado {
+  display: flex;
+  width: 100%;
+}
+.textos .m-20 {
+  margin-bottom: 20px;
+}
+
+.textos .apartado label {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botones a {
+  width: 45%;
+}

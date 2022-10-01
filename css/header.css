@@ -1,0 +1,84 @@
+.link__logo {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    z-index: 1;
+    transition: all 300ms;
+    background-color: rgb(226, 226, 226);
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.205));
+    transition: all 300ms;
+}
+
+.contenedor__menu {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #1f1f1f;
+    font-weight: 900;
+}
+
+.logo .logo_img {
+    background-image: url("../img/INEB.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 50px;
+    height: 60px;
+    width: 60px;
+    margin-right: 16px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu .elementos-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu .elementos-nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu .elementos-nav li .elemento-nav {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1f1f1f;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .elementos-nav li .elemento-nav:hover {
+    border-bottom: solid 4px var(--color-principal);
+    transition: all 150ms;
+}
+
+.menu nav img {
+    width: 60px;
+    display: none;
+}

@@ -1,0 +1,48 @@
+.paginacion {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.paginacion .contenedor-selector {
+    position: absolute;
+    bottom: 20px;
+}
+
+.paginacion .contenedor-selector ul {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.paginacion .contenedor-selector li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.paginacion .contenedor-selector a {
+    text-decoration: none;
+    border: 3px solid var(--color-principal);
+    background-color: var(--color-principal);
+    border-radius: 10px;
+    padding: 7px 17px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.paginacion .contenedor-selector a.no-link {
+    background-color: transparent;
+    border: 3px solid var(--color-principal);
+    font-weight: 800;
+    color: #282828;
+    pointer-events: none;
+}
+
+.paginacion .contenedor-selector a.active {
+    background-color: transparent;
+    border: 3px solid var(--color-principal);
+    font-weight: 800;
+    color: #282828;
+}

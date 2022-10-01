@@ -1,0 +1,96 @@
+section.notas {
+    padding: 50px 0 0 0;
+    width: 98vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 25px 50px 25px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.firma {
+    display: block;
+}
+
+.firma div {
+    text-align: center;
+}
+
+.titulos {
+    width: 75%;
+}
+
+.titulos h5 {
+    font-family: Montserrat,'sans-serif';
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.volver {
+    position: absolute;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 20px;
+    left: 20px;
+}
+
+.volver a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: all 300ms;
+}
+
+.volver a:hover {
+    color: var(--color-principal);
+}
+
+.imprimir {
+    position: absolute;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 50px;
+    right: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.imprimir {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 300ms;
+}
+
+.imprimir:hover {
+    color: #ffffff;
+}

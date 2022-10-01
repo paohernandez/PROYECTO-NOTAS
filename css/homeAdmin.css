@@ -1,0 +1,9 @@
+body {
+    background-image: url('../img/doodles.png');
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
